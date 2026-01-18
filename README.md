@@ -774,28 +774,28 @@ Local: http://localhost:8502
 Network: http://192.168.1.6:8502
 Backend API (FastAPI):
 
-API Documentation: http://localhost:8000/docs
-Health Check: http://localhost:8000/health
-🚀 How to Use:
-Open the Dashboard → http://localhost:8502
-Configure Scan → Use left sidebar
-Enter target IPs or domains (e.g., scanme.nmap.org)
-Select scan profile (Quick/Normal/Intensive)
-Optional: Specify ports
-Start Scan → Click the "Start Scan" button
-Monitor Results → Navigate through tabs:
-🏠 Overview - Executive summary
-🛰️ Nmap - Scan details
-🚨 Alerts - Security notifications
-📊 Risk Analysis - Risk scores
-🧠 AI Analyst - GPT insights
-✨ All Features Active:
-✅ Automated vulnerability scanning
-✅ Threat intelligence (VirusTotal, Shodan, Vulners, NVD)
-✅ Risk scoring and classification
-✅ Real-time security alerts
-✅ Interactive dashboards with charts
-✅ PDF/Excel/CSV report exports
-
+API Documentation: http://localhost:8000/docs<br>
+Health Check: http://localhost:8000/health<br>
+🚀 How to Use:<br>
+Open the Dashboard → http://localhost:8502<br>
+Configure Scan → Use left sidebar<br>
+Enter target IPs or domains (e.g., scanme.nmap.org)<br>
+Select scan profile (Quick/Normal/Intensive)<br>
+Optional: Specify ports<br>
+Start Scan → Click the "Start Scan" button<br>
+Monitor Results → Navigate through tabs:<br>
+🏠 Overview - Executive summary<br>
+🛰️ Nmap - Scan details<br>
+🚨 Alerts - Security notifications<br>
+📊 Risk Analysis - Risk scores<br>
+🧠 AI Analyst - GPT insights<br>
+✨ All Features Active:<br>
+✅ Automated vulnerability scanning<br>
+✅ Threat intelligence (VirusTotal, Shodan, Vulners, NVD)<br>
+✅ Risk scoring and classification<br>
+✅ Real-time security alerts<br>
+✅ Interactive dashboards with charts<br>
+✅ PDF/Excel/CSV report exports<br>
+<br>
 Your Cyber Risk Assessment Platform is ready to scan! 🛡️
 
