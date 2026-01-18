@@ -1,4 +1,4 @@
-# Setup and run Layer 1 (Linux users) 
+# Setup nmap (Linux users) 
 1. Install nmap INSIDE YOUR SYSTEM GLOBALLY. (Do this in terminal)
 > nmap installation is to be done in system level. 
 ```bash
