@@ -156,7 +156,6 @@ The Cyber Risk Assessment Platform (CRATIP) is an enterprise-grade security asse
 ## 📦 Installation
 
 ### Prerequisites
-
 - Python 3.10 or higher
 - Nmap installed on system
 - API keys (optional but recommended):
@@ -167,60 +166,56 @@ The Cyber Risk Assessment Platform (CRATIP) is an enterprise-grade security asse
   - OpenRouter API key (for AI features)
 
 ### Step 1: Clone Repository
-
-```bash
-git clone <repository-url>
-cd Cyber_Risk_Assessment_Platform
-```
+  ```bash
+  git clone ksaikiran950/Cyber_Risk_Assessment_Platform.git
+  cd Cyber_Risk_Assessment_Platform
+  ```
 
 ### Step 2: Create Virtual Environment
+  ```bash
+  python -m venv .venv
+  ```
+### Step 3: Activate Virtual Environment
+  ```bash
+  .venv\Scripts\activate # windows
+  
+  source .venv/bin/activate # linux / max
+  ```
+### Step 4: Install Dependencies
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-```bash
-# Windows
-python -m venv .venv
-.venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### Step 3: Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Configure Environment
+### Step 5: Configure Environment
 
 Create a `.env` file in the project root:
 
-```env
-# API Keys (Optional)
-VIRUSTOTAL_API_KEY=your_virustotal_key
-SHODAN_API_KEY=your_shodan_key
-VULNERS_API_KEY=your_vulners_key
-NVD_API_KEY=your_nvd_key
-OPENROUTER_API_KEY=your_openrouter_key
+  ```env
+  # API Keys (Optional)
+  VIRUSTOTAL_API_KEY=your_virustotal_key
+  SHODAN_API_KEY=your_shodan_key
+  VULNERS_API_KEY=your_vulners_key
+  NVD_API_KEY=your_nvd_key
+  OPENROUTER_API_KEY=your_openrouter_key
 
-# Database
-DATABASE_URL=sqlite:///backend/cratip.db
+  # Database
+  DATABASE_URL=sqlite:///backend/cratip.db
 
-# Backend
-BACKEND_HOST=127.0.0.1
-BACKEND_PORT=8000
-```
+  # Backend
+  BACKEND_HOST=127.0.0.1
+  BACKEND_PORT=8000
+  ```
 
 ---
 
-## 🎬 Quick Start
+## 🎬 Quick Start (make sure that your virtual enviromnet is activated)
 
 ### Option 1: Using Separate Terminals
 
 **Terminal 1 - Backend:**
 ```bash
 cd backend
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 **Terminal 2 - Dashboard:**
