@@ -15,6 +15,7 @@
 - [Features](#-features)
 - [Repository Structure](#repository-structure)
 - [Architecture](#️-architecture)
+- [Technology Stack](#technology-stack)
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
 - [System Components](#-system-components)
@@ -188,7 +189,7 @@ ______
                             └───────────┘
 ```
 
-### Technology Stack
+## Technology Stack
 
 **Backend:**
 - FastAPI 0.115.0 - High-performance async API framework
