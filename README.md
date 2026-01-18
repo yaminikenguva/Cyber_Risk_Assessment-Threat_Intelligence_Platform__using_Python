@@ -9,18 +9,18 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [System Components](#system-components)
-- [Alert System](#alert-system)
-- [Data Flow](#data-flow)
-- [API Documentation](#api-documentation)
-- [Dashboard](#dashboard)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#️-architecture)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [System Components](#-system-components)
+- [Alert System](#-alert-system)
+- [Data Flow](#-data-flow)
+- [API Documentation](#-api-documentation)
+- [Dashboard](#-dashboard)
 - [Configuration](#configuration)
-- [Project Requirements Compliance](#project-requirements-compliance)
+- [Project Requirements Compliance](#-project-requirements-compliance)
 
 ---
 
